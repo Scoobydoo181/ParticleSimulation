@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAP 4730 Particle Simulation</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheet.css"></link>
+</head>
+<body>
+    <div class="slidecontainer">
+        <span>Number of particles: </span> <span id="particleCount">001</span>
+        <input type="range" min="0" max="999" value="1" class="slider" id="myRange">
+        <button id="toggleDistribution">Toggle Distribution</button>
+    </div>
+
+    <div id="canvasContainer">
+        <div id="graph"></div>
+        <canvas id="animation"></canvas>
+    </div>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
